@@ -1,11 +1,11 @@
 #inicio {
 	background: #2C3E50;
-}
-#inicio h1 {
-	color: wheat;
 	padding: 5%;
 	padding-left: 20%;
 	padding-right: 20%
+}
+#inicio h1 {
+	color: wheat;
 }
 
 body {
