@@ -19,8 +19,15 @@ body {
 	padding-right: 20%;
 }
 #yo {
-	color: wheat;
-	background: #2C3E50;
+	color: #2C3E50;;
+	background: wheat;
+	padding: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#contacto {
+	color: #18BC9C;;
+	background: #333333;
 	padding: 5%;
 	padding-left: 20%;
 	padding-right: 20%;
