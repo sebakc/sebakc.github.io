@@ -6,13 +6,23 @@ body {
 }
 nav {
 	background-color: rgba(0,0,0,0.6);
+	z-index: -999
 }
 .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+.navbar .navbar-collapse {
+    text-align: center;
+}
+#logoback {
+	transform: skew(-20deg);
+	z-index: 0;
+	height: 120px;
+	width: 120px;
+}
+.navbar-brand {
+	z-index: 999;
+}
