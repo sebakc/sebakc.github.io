@@ -35,8 +35,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '', redirectTo: '/skills', pathMatch: 'full' },
-    { path: 'skills', component: __WEBPACK_IMPORTED_MODULE_2__skills_skills_component__["a" /* SkillsComponent */] }
+    { path: '', redirectTo: '/', pathMatch: 'full' },
+    { path: '/', component: __WEBPACK_IMPORTED_MODULE_2__skills_skills_component__["a" /* SkillsComponent */] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -234,7 +234,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var SkillsComponent = /** @class */ (function () {
     function SkillsComponent() {
         this.front = ['pug', 'html5', 'coffeescript', 'angular', 'vue', 'stylus', 'gulp', 'bootstrap'];
-        this.backend = ['themosis', 'laravel', 'wordpress', 'bootstrap', 'mysql'];
+        this.backend = ['themosis', 'laravel', 'wordpress', 'mysql', 'elixir'];
     }
     SkillsComponent.prototype.ngOnInit = function () {
     };
