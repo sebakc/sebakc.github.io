@@ -35,8 +35,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '', redirectTo: '/', pathMatch: 'full' },
-    { path: '/', component: __WEBPACK_IMPORTED_MODULE_2__skills_skills_component__["a" /* SkillsComponent */] }
+    { path: '', redirectTo: '/skills', pathMatch: 'full' },
+    { path: 'skills', component: __WEBPACK_IMPORTED_MODULE_2__skills_skills_component__["a" /* SkillsComponent */] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
