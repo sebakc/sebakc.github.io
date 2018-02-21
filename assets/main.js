@@ -74,5 +74,11 @@ $(document).ready(function(){
         })
         $(this).closest('.circle-container').css('transform', 'rotate('+(getRotationDegrees(deg)*-1)+'deg)')
     })
+
+    $('[data-name]').hover(function(){
+        $('[data-name]').removeClass('hover')
+        var attr = $(this).attr('data-name')
+        $('[data-name="'+attr+'"]').addClass('hover')
+    })
 })
 
