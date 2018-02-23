@@ -198,7 +198,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "div {\r\n\tposition: relative;\r\n\tmargin: auto;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n    -webkit-transition: ease-in-out 1s all;\r\n    transition: ease-in-out 1s all;\r\n}\r\ndiv:hover {\r\n\r\n}\r\ndiv span {\r\n\tdisplay: inline-block;\r\n\t-webkit-transform-origin: bottom center;\r\n\t        transform-origin: bottom center;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tposition: absolute;\r\n\tcursor: pointer;\r\n\tfont-size: 15px\r\n}\r\ndiv span.hover {\r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\r\n}", ""]);
+exports.push([module.i, "div {\r\n\tposition: relative;\r\n\tmargin: auto;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n    -webkit-transition: ease-in-out 1s all;\r\n    transition: ease-in-out 1s all;\r\n}\r\ndiv:hover {\r\n\r\n}\r\ndiv span {\r\n\tdisplay: inline-block;\r\n\t-webkit-transform-origin: bottom center;\r\n\t        transform-origin: bottom center;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tposition: absolute;\r\n\tcursor: pointer;\r\n\tfont-size: 15px\r\n}\r\ndiv span.hover {\r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\r\n\t-webkit-filter: drop-shadow(2px 8px 2px gray);\r\n\t        filter: drop-shadow(2px 8px 2px gray);\r\n\t-webkit-font-smoothing: allways;\r\n}", ""]);
 
 // exports
 
@@ -211,7 +211,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/skills/skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"circle-container\">\n\t<span class=\"curved-word\" *ngFor=\"let skill of front\">\n\t{{skill}}\n\t</span>\n</div>\n<div class=\"circle-container\">\n\t<span class=\"curved-word\" *ngFor=\"let skill of backend\">\n\t{{skill}}\n\t</span>\n</div>"
+module.exports = "<div class=\"circle-container-father\">\n\t<div class=\"words-container\">\n\t\t<span class=\"curved-word\" *ngFor=\"let skill of front\">\n\t\t{{skill}}\n\t\t</span>\n\t</div>\n\t<div class=\"circle-container\">\n\t</div>\n</div>\n\n<div class=\"description\">\n\t<div class=\"title\">\n\t\t<h2 class=\"h3\">\n\t\t\tpug\n\t\t</h2>\n\t</div>\n\t<div class=\"content\">\n\t\tljldjal ald alskd alsd alskd alskd alskd alkd laks dlak dsla dlak sdlak dlak sdlak sdlaks dlakd laksd laks dlas\n\t</div>\t\t\n</div>\n\n<div class=\"circle-container-father\">\n\t<div class=\"words-container\">\n\t\t<span class=\"curved-word\" *ngFor=\"let skill of backend\">\n\t\t{{skill}}\n\t\t</span>\n\t</div>\n\t<div class=\"circle-container\">\n\t</div>\n</div>\n<div class=\"extended\"></div>"
 
 /***/ }),
 
@@ -235,6 +235,7 @@ var SkillsComponent = /** @class */ (function () {
     function SkillsComponent() {
         this.front = ['pug', 'html5', 'coffeescript', 'angular', 'vue', 'stylus', 'gulp', 'bootstrap'];
         this.backend = ['themosis', 'laravel', 'wordpress', 'mysql', 'elixir'];
+        this.display = false;
     }
     SkillsComponent.prototype.ngOnInit = function () {
     };
