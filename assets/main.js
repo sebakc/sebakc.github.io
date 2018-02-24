@@ -110,6 +110,7 @@ function main() {
         var attr = $(this).attr('data-name')
         $('[data-name="'+attr+'"]').addClass('hover')
     })
+
 }
 
 $(document).ready(function(){
