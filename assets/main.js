@@ -110,9 +110,20 @@ function main() {
         var attr = $(this).attr('data-name')
         $('[data-name="'+attr+'"]').addClass('hover')
     })
-
+    $('title').on('click', function(){
+    	if ($(this).hasClass('on')) {
+    		$(this).addClass('on')
+    	} else {
+    		$(this).removeClass('on')
+    	}
+    })
 }
 
 $(document).ready(function(){
 	main()
+	document.addEventListener ("keydown", function (zEvent) {
+      if (zEvent.ctrlKey  &&  zEvent.altKey  &&  zEvent.code === "KeyE") {
+        alert('asas')
+      }
+    });
 })

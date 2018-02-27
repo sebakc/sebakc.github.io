@@ -198,7 +198,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "div {\r\n\tposition: relative;\r\n\tmargin: auto;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n    -webkit-transition: ease-in-out 1s all;\r\n    transition: ease-in-out 1s all;\r\n}\r\ndiv:hover {\r\n\r\n}\r\ndiv span {\r\n\tdisplay: inline-block;\r\n\t-webkit-transform-origin: bottom center;\r\n\t        transform-origin: bottom center;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tposition: absolute;\r\n\tcursor: pointer;\r\n\tfont-size: 15px\r\n}\r\ndiv span.hover {\r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\r\n\t-webkit-filter: drop-shadow(2px 8px 2px gray);\r\n\t        filter: drop-shadow(2px 8px 2px gray);\r\n\t-webkit-font-smoothing: allways;\r\n}\r\n.titles-container {\r\n\tdisplay:  block;\r\n\twidth: 100%;\r\n\theight: 30px;\r\n\tmargin: 20px 0;\r\n}\r\n.titles-container .title {\r\n\tposition: relative;\r\n\tborder: 2px solid black;\r\n    padding: 4px 8px;\r\n    margin: 4px;\r\n    cursor: pointer;\r\n\t-webkit-transform-origin: center center;\r\n\t        transform-origin: center center;\r\n\t-webkit-transition: ease-in-out all .1s;\r\n\ttransition: ease-in-out all .1s\r\n}\r\n.titles-container .title.on {\r\n\t-webkit-transform: scale(1.2);\r\n\t        transform: scale(1.2);\r\n}\r\n@media screen and (min-width: 602px) {\r\n\t.circle-container-father {\r\n\t\tdisplay: inline-block;\r\n\t}\r\n\t.description {\r\n\t\tbottom: 80px\r\n\t}\r\n}\r\n.magic-circle {\r\n\tbackground: rgba(22,123,123,.2);\r\n\tcolor: black;\r\n\tmix-blend-mode: screen;\r\n}\r\n@media screen and (max-width: 602px) {\r\n\t.circle-container-father.backend {\r\n\t\twidth: 156.927px;\r\n\t\tposition: absolute;\r\n\t\ttop: 33px;\r\n\t\tmargin: auto;\r\n\t\tleft: 50%;\r\n\t\tmargin-left: -81px;\r\n\t}\r\n\t.circle-container-father.backend.off {\r\n\t\t-webkit-transform: scale(.15);\r\n\t\t        transform: scale(.15);\r\n\t}\r\n\t.circle-container-father.frontend.off {\r\n\t\t-webkit-transform: scale(.15);\r\n\t\t        transform: scale(.15);\r\n\t}\r\n\r\n}\r\n@media screen and (min-width: 602px) {\r\n\t.circle-container-father.backend {\r\n\t\twidth: 156.84px;\r\n\t    position: absolute;\r\n\t    margin-left: -393px;\r\n\t    top: 32px;\r\n\t}\r\n}", ""]);
+exports.push([module.i, "div {\r\n\tposition: relative;\r\n\tmargin: auto;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n    -webkit-transition: ease-in-out 1s all;\r\n    transition: ease-in-out 1s all;\r\n}\r\ndiv:hover {\r\n\r\n}\r\ndiv span {\r\n\tdisplay: inline-block;\r\n\t-webkit-transform-origin: bottom center;\r\n\t        transform-origin: bottom center;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tposition: absolute;\r\n\tcursor: pointer;\r\n\tfont-size: 15px\r\n}\r\ndiv span.hover {\r\n\tfont-size: 16px;\r\n\tfont-weight: bold;\r\n\t-webkit-filter: drop-shadow(2px 4px 2px gray);\r\n\t        filter: drop-shadow(2px 4px 2px gray);\r\n\t-webkit-font-smoothing: allways;\r\n}\r\n.titles-container {\r\n\tdisplay:  block;\r\n\twidth: 100%;\r\n\theight: 30px;\r\n\tmargin: 20px 0;\r\n}\r\n.titles-container .title {\r\n\tposition: relative;\r\n\tborder: 2px solid black;\r\n    padding: 4px 8px;\r\n    margin: 4px;\r\n    cursor: pointer;\r\n\t-webkit-transform-origin: center center;\r\n\t        transform-origin: center center;\r\n\t-webkit-transition: ease-in-out all .1s;\r\n\ttransition: ease-in-out all .1s\r\n}\r\n.titles-container .title.on {\r\n\t-webkit-transform: scale(1.2);\r\n\t        transform: scale(1.2);\r\n\t-webkit-filter: drop-shadow(-2px 2px 1px black);\r\n\t        filter: drop-shadow(-2px 2px 1px black);\r\n}\r\n@media screen and (min-width: 602px) {\r\n\t.circle-container-father {\r\n\t\tdisplay: inline-block;\r\n\t\tvertical-align: top;\r\n\t}\r\n\t.description {\r\n\r\n\t}\r\n}\r\n.magic-circle {\r\n\tbackground: rgba(22,123,123,.2);\r\n\tcolor: black;\r\n\tmix-blend-mode: screen;\r\n}\r\n@media screen and (max-width: 602px) {\r\n\t.circle-container-father.backend {\r\n\t\twidth: 156.927px;\r\n\t\tposition: absolute;\r\n\t\ttop: 33px;\r\n\t\tmargin: auto;\r\n\t\tleft: 50%;\r\n\t\tmargin-left: -81px;\r\n\t}\r\n\t.circle-container-father.backend.off {\r\n\t\t-webkit-transform: scale(.15);\r\n\t\t        transform: scale(.15);\r\n\t}\r\n\t.circle-container-father.frontend.off {\r\n\t\t-webkit-transform: scale(.15);\r\n\t\t        transform: scale(.15);\r\n\t}\r\n\r\n}\r\n@media screen and (min-width: 602px) {\r\n\t.circle-container-father.backend {\r\n\t\twidth: 156.84px;\r\n\t    position: absolute;\r\n\t    margin-left: -393px;\r\n\t    top: 32px;\r\n\t}\r\n}", ""]);
 
 // exports
 
@@ -211,7 +211,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/skills/skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"titles-container\">\n\t<span class=\"title frontend\" (click)=\"setButtonStatus('front')\" [class.on]=\"frontendStatus\">Front-End</span>\n\t<span class=\"title backend\" (click)=\"setButtonStatus('back')\" [class.on]=\"backendStatus\">Back-End</span>\n</div>\n\n<div class=\"technologies-container\">\n\t<div class=\"circle-container-father frontend\" [class.off]=\"!frontendStatus\">\n\t\t<div class=\"words-container\">\n\t\t\t<span class=\"curved-word\" *ngFor=\"let skill of front\">\n\t\t\t{{skill}}\n\t\t\t</span>\n\t\t</div>\n\t\t<div class=\"circle-container\">\n\t\t\t<span *ngFor=\"let char of circle(front); index as i\"> {{char}}</span>\n\t\t</div>\n\t</div>\n\n\t<div class=\"description\">\n\t\t<div class=\"title\">\n\t\t\t<h2 class=\"h3\">\n\t\t\t\tpug\n\t\t\t</h2>\n\t\t</div>\n\t\t<div class=\"content\">\n\t\t\tljldjal ald alskd alsd alskd alskd alskd alkd laks dlak dsla dlak sdlak dlak sdlak sdlaks dlakd laksd laks dlas\n\t\t</div>\t\t\n\t</div>\n\n\t<div class=\"circle-container-father backend\"  [class.off]=\"!backendStatus\">\n\t\t<div class=\"words-container\">\n\t\t\t<span class=\"curved-word\" *ngFor=\"let skill of backend\">\n\t\t\t{{skill}}\n\t\t\t</span>\n\t\t</div>\n\t\t<div class=\"circle-container\">\n\t\t\t<span *ngFor=\"let char of circle(backend); index as i\" [style.transform]=\"'rotate('+increment*i+')'\"> {{char}}</span>\n\t\t</div>\n\t</div>\n\t<div class=\"extended\"></div>\n</div>"
+module.exports = "<div><h2>{{section}}</h2></div>\n\n<div class=\"titles-container\">\n\t<span class=\"title frontend\" (click)=\"setButtonStatus('front')\" [class.on]=\"frontendStatus\">Front-End</span>\n\t<span class=\"title backend\" (click)=\"setButtonStatus('back')\" [class.on]=\"backendStatus\">Back-End</span>\n</div>\n\n<div class=\"technologies-container\">\n\t<div class=\"circle-container-father frontend\" [class.off]=\"!frontendStatus\" [style.height]=\"getHeight(circle(front).length, 'diamater')\">\n\t\t<div class=\"words-container\">\n\t\t\t<span class=\"curved-word\" *ngFor=\"let skill of front\">\n\t\t\t{{skill}}\n\t\t\t</span>\n\t\t</div>\n\t\t<div class=\"circle-container\" [style.height]=\"getHeight(circle(front).length, 'diamater')\">\n\t\t\t<span *ngFor=\"let char of circle(front); index as i\" [style.transform]=\"getDegres(i)\" [style.height]=\"getHeight(circle(front).length, 'radius')\"> {{char}}</span>\n\t\t</div>\n\t</div>\n\n\t<div class=\"description\">\n\t\t<div class=\"title\">\n\t\t\t<h2 class=\"h3\">\n\t\t\t\tpug\n\t\t\t</h2>\n\t\t</div>\n\t\t<div class=\"content\">\n\t\t\tCoffeeScript es un lenguaje de programación que se compila a JavaScript. El lenguaje añade azúcar sintáctico inspirado en Ruby, Python y Haskell​ para mejorar la brevedad y la legibilidad de JavaScript, y añade características más sofisticadas.\n\t\t</div>\t\t\n\t</div>\n\n\t<div class=\"circle-container-father backend\"  [class.off]=\"!backendStatus\">\n\t\t<div class=\"words-container\">\n\t\t\t<span class=\"curved-word\" *ngFor=\"let skill of backend\">\n\t\t\t{{skill}}\n\t\t\t</span>\n\t\t</div>\n\t\t<div class=\"circle-container\">\n\t\t\t<span *ngFor=\"let char of circle(backend); index as i\" [style.transform]=\"getDegres(i)\"> {{char}}</span>\n\t\t</div>\n\t</div>\n\t<div class=\"extended\"></div>\n</div>"
 
 /***/ }),
 
@@ -235,11 +235,25 @@ var SkillsComponent = /** @class */ (function () {
     function SkillsComponent() {
         this.front = ['pug', 'html5', 'coffeescript', 'angular', 'vue', 'stylus', 'gulp', 'bootstrap'];
         this.backend = ['themosis', 'laravel', 'wordpress', 'mysql', 'elixir'];
+        this.definitions = {
+            'pug': 'Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers',
+            'html5': 'HTML5 es la última versión de HTML. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.',
+            'coffeescript': 'CoffeeScript es un lenguaje de programación que se compila a JavaScript. El lenguaje añade azúcar sintáctico inspirado en Ruby, Python y Haskell​ para mejorar la brevedad y la legibilidad de JavaScript, y añade características más sofisticadas.',
+            'angular': '',
+            'vue': '',
+            'stylus': '',
+            'gulp': '',
+            'bootstrap': ''
+        };
         this.display = false;
         this.frontendStatus = true;
         this.backendStatus = false;
         this.increment = 0;
         this.max = 0;
+        this.section = 'Tecnologías';
+        this.current = '';
+        this.width = 12.4;
+        this.radius = 0;
     }
     SkillsComponent.prototype.setButtonStatus = function (origin) {
         if (origin == 'back') {
@@ -255,6 +269,14 @@ var SkillsComponent = /** @class */ (function () {
         var length = words.join().length;
         this.increment = 360 / length;
         return words.join().replace(/,/g, '_').split('');
+    };
+    SkillsComponent.prototype.getDegres = function (index) {
+        return 'rotate(' + index * this.increment + 'deg)';
+    };
+    SkillsComponent.prototype.getHeight = function (length, type) {
+        var radius = (this.width * (length)) / (2 * Math.PI);
+        var height = type == 'radius' ? radius : radius * 2;
+        return height + 'px';
     };
     SkillsComponent.prototype.ngOnInit = function () {
     };
